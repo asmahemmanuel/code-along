@@ -24,13 +24,13 @@ const ProfileForm = () => {
           <legend>Personal Information</legend>
           <input 
           type= "text" 
-          name='firstname' 
+          name='firstName' 
           onChange={handleChange} 
           value={profile.firstName} 
           />
           <input 
           type= "text" 
-          name='lastname' 
+          name='lastName' 
           onChange={handleChange}
           value={profile.lastName}
           />
