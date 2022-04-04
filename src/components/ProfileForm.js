@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const ProfileForm = () => {
+const ProfileForm = ({submit}) => {
     const [profile, setProfile] = useState({
         firstName: "",
         lastName: "",
@@ -15,7 +15,7 @@ const ProfileForm = () => {
 
  const handleSubmit = e => {
      e.preventDefault();
-    //  submit(profile);
+     submit(profile);
  };
 
  return (
